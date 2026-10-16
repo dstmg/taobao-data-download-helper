@@ -1,0 +1,56 @@
+{
+  "manifest_version": 3,
+  "name": "淘宝商家数据下载助手",
+  "version": "1.2.3",
+  "description": "本地官方报表下载助手，支持生意参谋、阿里妈妈及淘宝联盟商家推广概览。",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "淘宝商家数据下载助手",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "24": "icons/icon-24.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "alarms",
+    "downloads",
+    "debugger",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://myseller.taobao.com/*",
+    "https://sycm.taobao.com/*",
+    "https://one.alimama.com/*",
+    "https://*.taobao.com/*",
+    "https://*.alimama.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://myseller.taobao.com/*",
+        "https://sycm.taobao.com/*",
+        "https://one.alimama.com/*",
+        "https://*.taobao.com/*",
+        "https://*.alimama.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

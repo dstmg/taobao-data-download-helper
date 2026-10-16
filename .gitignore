@@ -1,0 +1,10 @@
+本机验收-不分发/
+测试结果/
+交付/
+*.csv
+*.xlsx
+*.xls
+*.log
+.env*
+__pycache__/
+node_modules/

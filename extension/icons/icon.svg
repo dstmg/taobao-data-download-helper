@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>商家报表下载助手</title>
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#182d5b"/>
+      <stop offset="1" stop-color="#08152e"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="122" height="122" rx="28" fill="url(#navy)"/>
+  <rect x="3.5" y="3.5" width="121" height="121" rx="27.5" fill="none" stroke="#456197" stroke-opacity=".45"/>
+  <g fill="none" stroke="#f2f7ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M69 102H31a6 6 0 0 1-6-6V32a6 6 0 0 1 6-6h50a6 6 0 0 1 6 6v15"/>
+    <path d="M27 46h58M47 48v52M28 66h38M28 84h31"/>
+  </g>
+  <g fill="none" stroke="#44e4df" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M89 59v28M77 76l12 12 12-12"/>
+    <path d="M74 98v5h30v-5"/>
+  </g>
+</svg>
