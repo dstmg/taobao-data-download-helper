@@ -14,6 +14,14 @@
 
 </div>
 
+## 插件完整界面
+
+<p align="center">
+  <img src="docs/images/plugin-long.png" width="390" alt="淘宝商家数据下载助手完整界面：店铺与日期、六类报表、历史补采、每日定时和运行状态" />
+</p>
+
+<p align="center"><sub>使用演示店铺展示真实插件界面，不含真实经营数据。点击图片可查看高清长图。</sub></p>
+
 ## 能下载什么
 
 | 后台 | 报表 |
